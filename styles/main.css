@@ -1,0 +1,63 @@
+body {
+    background-image: url("../assets/svg/polygon.png");
+    /* background-size: cover; */
+    /* background-position: top;
+    height: 100%; */ 
+}
+
+.background-img {
+    background: url(../assets/png/polygon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-position-x: 300px;
+    
+}
+
+.title-font1 {
+font-family: 'Source Code', monospace;
+font-size: 25pt;
+font-weight: 600;
+/* font-weight: semi-bold; */
+margin-top: 20%;
+margin-left: 10%;
+}
+
+h1 {
+    font-family: 'Source Code', monospace;
+    font-size: 25pt;
+    font-weight: 600;
+    /* font-weight: semi-bold; */
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+
+h2 {
+    font-family: 'Source Code', monospace;
+    font-size: 25pt;
+    font-weight: 300;
+    /* font-weight: semi-bold; */
+
+    margin-left: 10%;
+
+}
+h3 {
+    font-family: 'Source Code', monospace;
+    font-size: 15pt;
+    font-weight: 200;
+    /* font-weight: semi-bold; */
+    margin-left: 10%;
+
+}
+p {
+    font-family: 'Source Code', monospace;
+    font-size: 12pt;
+    font-weight: 100;
+
+}
+
+.indent {
+    margin-left: 10%;
+}

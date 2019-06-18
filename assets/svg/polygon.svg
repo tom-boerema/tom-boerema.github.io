@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="654px" height="700px" viewBox="0 0 654 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Polygon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#9FDDE1" stop-opacity="0.18673514" offset="0%"></stop>
+            <stop stop-color="#66B9BF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="22.0247743%" y1="50%" x2="19.6627363%" y2="134.953473%" id="linearGradient-2">
+            <stop stop-color="#07889B" stop-opacity="0.425699301" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1349.68846,-702.859338 L1955.26969,-353.226851 C1970.73974,-344.295212 1980.26969,-327.788861 1980.26969,-309.925581 L1980.26969,389.339392 C1980.26969,407.202671 1970.73974,423.709022 1955.26969,432.640662 L1349.68846,782.273149 C1334.21841,791.204788 1315.15851,791.204788 1299.68846,782.273149 L694.107229,432.640662 C678.637175,423.709022 669.107229,407.202671 669.107229,389.339392 L669.107229,-309.925581 C669.107229,-327.788861 678.637175,-344.295212 694.107229,-353.226851 L1299.68846,-702.859338 C1315.15851,-711.790978 1334.21841,-711.790978 1349.68846,-702.859338 Z" id="path-3"></path>
+        <filter x="2.0%" y="-3.6%" width="95.0%" height="107.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="-7" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="homepage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-546.000000, 0.000000)">
+            <g id="Polygon" transform="translate(1324.688459, 39.706905) rotate(-41.000000) translate(-1324.688459, -39.706905) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
