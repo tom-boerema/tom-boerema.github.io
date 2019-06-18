@@ -1,4 +1,20 @@
-<!DOCTYPE html>
+<?php
+
+if($_POST["submit"]) {
+    $recipient="tomboerema1@gmail.com";
+    $subject="subject";
+    $sender=$_POST["name"];
+    $senderEmail=$_POST["email"];
+    $message=$_POST["body"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Contact V1</title>
@@ -78,7 +94,7 @@
 				<img src="images/img-01.png" alt="IMG">
 			</div>
 
-			<form action="mailto:tomboerema1@gmail.com" method="post class="contact1-form validate-form">
+			<form method="post" action="contact.php" class="contact1-form validate-form">
 				<span class="contact1-form-title">
 					Get in touch
 				</span>
