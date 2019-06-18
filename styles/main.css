@@ -7,11 +7,13 @@ body {
 
 .background-img {
     background: url(../assets/png/polygon.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-    background-position-x: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    background-position-x: 50%
+    /* background-position: 300px; */
     
 }
 
@@ -60,4 +62,13 @@ p {
 
 .indent {
     margin-left: 10%;
+}
+
+.spotify {
+    margin-left: 10%;
+}
+
+.instagram {
+    margin-left: 10%;
+}
 }
