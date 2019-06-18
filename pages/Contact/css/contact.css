@@ -39,7 +39,14 @@
   src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
 }
 
-
+.getintouch {
+font-family: 'Source Code', monospace;
+font-size: 25pt;
+font-weight: 600;
+/* font-weight: semi-bold; */
+margin-top: 20%;
+margin-left: 10%;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
@@ -57,7 +64,8 @@ body, html {
 
 /*---------------------------------------------*/
 a {
-	font-family: Montserrat-Regular;
+  /* font-family: Montserrat-Regular; */
+  font-family: 'Source Code', monospace;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -83,7 +91,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Montserrat-Regular;
+  /* font-family: Montserrat-Regular; */
+  font-family: 'Source Code', monospace;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -200,12 +209,20 @@ iframe {
 
 .contact1-form-title {
   display: block;
-  font-family: Montserrat-ExtraBold;
+  /* font-family: Montserrat-ExtraBold; */
   font-size: 24px;
   color: #333333;
   line-height: 1.2;
   text-align: center;
+  
   padding-bottom: 44px;
+
+  font-family: 'Source Code', monospace;
+  font-size: 25pt;
+  font-weight: 600;
+  /* font-weight: semi-bold; */
+  margin-top: 20%;
+  margin-left: 0%;
 }
 
 input.input1 {
@@ -240,7 +257,8 @@ textarea.input1 + .shadow-input1 {
   /* background: #e6e6e6; */
   border: 1px solid #999999
   border-radius: 13px;
-  font-family: Montserrat-Bold;
+  /* font-family: Montserrat-Bold; */
+  font-family: 'Source Code', monospace;
   font-size: 15px;
   line-height: 1.5;
   color: #666666;
@@ -294,7 +312,9 @@ textarea.input1 + .shadow-input1 {
   height: 50px;
   border-radius: 25px;
   background: #57b846;
-  font-family: Montserrat-Bold;
+  /* font-family: Montserrat-Bold; */
+  font-family: 'Source Code', monospace;
+  
   font-size: 15px;
   line-height: 1.5;
   color: #fff;
@@ -409,7 +429,8 @@ textarea.input1 + .shadow-input1 {
   right: 8px;
   pointer-events: none;
 
-  font-family: Montserrat-Medium;
+  /* font-family: Montserrat-Medium; */
+  font-family: 'Source Code', monospace;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
@@ -426,8 +447,8 @@ textarea.input1 + .shadow-input1 {
 
 .alert-validate::after {
   content: "\f06a";
-  font-family: FontAwesome;
-  display: block;
+  /* font-family: FontAwesome; */
+  font-family: 'Source Code', monospace;
   position: absolute;
   color: #c80000;
   font-size: 15px;
