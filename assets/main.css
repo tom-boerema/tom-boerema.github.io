@@ -143,17 +143,21 @@ p {
 
 .scrollbox {
 
-    height: 400px;
-    width: 600px;
+    height: 50%;
+    width: 120%;
     overflow: auto;
+    border: solid rgba(212, 212, 212, 0.3) 1px;
+    padding: 2%;
+    border-radius: 2%;
+    
 }
 
 .eg-sticky {
     
     position: sticky;
     top: 0px;
-    left: 200px;
-    padding: 1px;
+    left: 80%;
+    padding: 0.3%;
     background-color: #cae8ca;
     border: 1px solid #4CAF50;
     font-size: 10pt;
@@ -162,9 +166,9 @@ p {
 .eg-fixed {
     
     position: fixed;
-    top: 415px;
-    left: 200px;
-    padding: 1px;
+    top: 50%;
+    left: 30%;
+    padding: 0.3%;
     background-color: #cae8ca;
     border: 1px solid #4CAF50;
     font-size: 10pt;
@@ -174,7 +178,7 @@ p {
 .eg-static {
     
     position: static;
-    padding: 1px;
+    padding: 0.3%;
     background-color: #cae8ca;
     border: 1px solid #4CAF50;
     font-size: 10pt;
@@ -186,9 +190,9 @@ p {
 .eg-relative {
     
     position: relative;
-    padding: 1px;
-    left: 200px;
-    bottom: 250px;
+    padding: 0.3%;
+    left: 55%;
+    top: 20%;
     background-color: #cae8ca;
     border: 1px solid #4CAF50;
     font-size: 10pt;
