@@ -38,7 +38,7 @@ font-size: 25pt;
 font-weight: 600;
 /* font-weight: semi-bold; */
 margin-top: 20%;
-margin-left: 10%;
+
 }
 
 h1 {
@@ -47,7 +47,7 @@ h1 {
     font-weight: 600;
     /* font-weight: semi-bold; */
     margin-top: 10%;
-    margin-left: 10%;
+    
 
 }
 
@@ -57,7 +57,7 @@ h2 {
     font-weight: 300;
     /* font-weight: semi-bold; */
 
-    margin-left: 10%;
+    
 
 }
 h3 {
@@ -65,18 +65,29 @@ h3 {
     font-size: 15pt;
     font-weight: 200;
     /* font-weight: semi-bold; */
-    margin-left: 10%;
+    
 
 }
 p {
     font-family: 'Source Code', monospace;
     font-size: 12pt;
     font-weight: 100;
+    /* margin-left: 10%; */
+}
+
+.card-body ul {
+    font-family: 'Source Code', monospace;
+    font-size: 12pt;
+    font-weight: 100;
+    margin-left: 10%;
 
 }
 
 .indent {
     margin-left: 10%;
+}
+.indent8 {
+    margin-left: 8%;
 }
 
 .spotify {
@@ -86,3 +97,35 @@ p {
 .instagram {
     margin-left: 10%;
 }
+
+.transparent {
+    background-color: rgba(245, 245, 245, 0.2);
+ }
+
+ .no-indent {
+    text-align: left;
+    margin-left: 0%;
+     
+ }
+
+ .no-padding {
+     padding-left: 0px;
+     padding-right: 0px;
+ }
+
+ .font {
+    font-family: 'Source Code', monospace;
+
+ }
+
+ .container {
+     margin-left: 0px;
+     margin-right: 0px;
+ }
+
+ .question {
+     font-style: italic;
+     font-weight: 600;
+     font-size: 11pt;
+ }
+
