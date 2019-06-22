@@ -105,10 +105,11 @@ p {
 }
 
 .card-body ul {
-    font-family: 'Source Code', monospace;
+    /* font-family: 'Source Code', monospace;
     font-size: 12pt;
-    font-weight: 100;
-    margin-left: 0%;
+    font-weight: 100; */
+    position: relative;
+    
 
 }
 
@@ -160,6 +161,7 @@ p {
      font-style: italic;
      font-weight: 600;
      font-size: 11pt;
+     
  }
 
 .code {
@@ -269,4 +271,8 @@ p {
     color: grey;
     font-style: italic;
     font-size: 9pt;
+  }
+
+  .margin-neg5 {
+      margin-left: -5%
   }
