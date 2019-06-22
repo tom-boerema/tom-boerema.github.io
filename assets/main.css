@@ -261,3 +261,12 @@ p {
     margin-left: 40%;
   }
  
+  .quote {
+
+    /* position: absolute; */
+    top: 0%;
+    left: 100%;
+    color: grey;
+    font-style: italic;
+    font-size: 9pt;
+  }
